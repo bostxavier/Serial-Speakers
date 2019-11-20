@@ -1,2 +1,3 @@
 # Serial-Speakers
-Companion toolkit of the 'Serial Speakers' dataset.
+Companion toolkit of the *Serial Speakers* dataset.
+
