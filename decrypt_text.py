@@ -10,6 +10,7 @@ import re
 import hashlib
 import difflib
 import numpy as np
+import time
 
 from nltk.tokenize import word_tokenize
 
@@ -91,10 +92,15 @@ def _post_processing(speech_segments):
 
 def _retrieve_content(encrypted_tokens, subtitle_tokens):
 
+    # dictionary of hashes
+    hash_dict = {}
+
+    # initialize number of deletions / substitutions
     n_del = n_sub = 0
+    
     speech_segments = ['' for i in range(len(encrypted_tokens))]
     
-    # squeeze first dimention of reference encrypted tokens
+    # squeeze first dimension of reference encrypted tokens
     ref_encrypted_tokens = []
     mapping = []
     
@@ -105,9 +111,18 @@ def _retrieve_content(encrypted_tokens, subtitle_tokens):
     # encrypt subtitle tokens
     sub_encrypted_tokens = []
     for token in subtitle_tokens:
-        h = hashlib.md5()
-        h.update(token.lower().encode('utf-8'))
-        sub_encrypted_tokens.append(h.hexdigest())
+
+        # new word type: compute hash
+        if not token in hash_dict:
+            # initialize hash object
+            h = hashlib.md5()
+
+            # encrypt word type
+            h.update(token.lower().encode('utf-8'))
+            hash_dict[token] = h.hexdigest()
+
+        # append encryted token
+        sub_encrypted_tokens.append(hash_dict[token])
 
     # match both sequences
     matcher = difflib.SequenceMatcher(None, ref_encrypted_tokens, sub_encrypted_tokens)
@@ -137,6 +152,9 @@ def _retrieve_content(encrypted_tokens, subtitle_tokens):
 
     
 def decrypt_text(annot_file, subtitles_dir, subtitles_encoding, output_annot_file):
+    # starting time
+    start_time = time.time()
+    
     # expand paths
     annot_file = os.path.expanduser(annot_file)
     subtitles_dir = os.path.expanduser(subtitles_dir)
@@ -197,10 +215,14 @@ def decrypt_text(annot_file, subtitles_dir, subtitles_encoding, output_annot_fil
         print('Season {}: {:4.2f} del (avg.); {:4.2f} sub (avg.)'.format(i+1,
                                                                          np.mean(n_deletions),
                                                                          np.mean(n_substitutions)))
-                
+        
+    print('Text recovered in {:.2f} seconds'.format(time.time() - start_time))
+        
     # write out annotation file with encrypted text
     with open(output_annot_file, 'w') as outfile:
         json.dump(annotations, outfile, indent=2)
+
+    
         
                 
 def parse_arguments(argv):

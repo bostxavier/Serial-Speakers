@@ -16,6 +16,9 @@ def encrypt_text(annot_file, output_file):
     # load annotation file
     annotations = json.load(open(annot_file))
 
+    # dictionary of hashes
+    hash_dict = {}
+    
     # loop over seasons
     seasons = annotations['seasons']
     for i, season in enumerate(seasons):
@@ -38,13 +41,19 @@ def encrypt_text(annot_file, output_file):
                 encrypted_tokens = []
                 words = word_tokenize(text)
                 for word in words:
-                    # initialize hash object
-                    h = hashlib.md5()
 
-                    # encrypt word
-                    h.update(word.encode('utf-8'))
-                    encrypted_tokens.append(h.hexdigest())
-                    # encrypted_tokens.append(len(word))
+                    # new word type: compute hash
+                    if not word in hash_dict:
+                        
+                        # initialize hash object
+                        h = hashlib.md5()
+
+                        # encrypt word type
+                        h.update(word.encode('utf-8'))
+                        hash_dict[word] = h.hexdigest()
+
+                    # append encryted word
+                    encrypted_tokens.append(hash_dict[word])
                     
                 speech_segment['encrypted_text'] = encrypted_tokens
                 speech_segment.pop('text', None)
