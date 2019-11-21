@@ -115,7 +115,7 @@ def _retrieve_content(encrypted_tokens, subtitle_tokens):
         # new word type: compute hash
         if not token in hash_dict:
             # initialize hash object
-            h = hashlib.md5()
+            h = hashlib.sha256()
 
             # encrypt word type
             h.update(token.lower().encode('utf-8'))

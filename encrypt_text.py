@@ -46,7 +46,7 @@ def encrypt_text(annot_file, output_file):
                     if not word in hash_dict:
                         
                         # initialize hash object
-                        h = hashlib.md5()
+                        h = hashlib.sha256()
 
                         # encrypt word type
                         h.update(word.encode('utf-8'))
