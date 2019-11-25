@@ -1,4 +1,5 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
 
 import sys
 import argparse
@@ -8,8 +9,17 @@ import hashlib
 
 from nltk.tokenize import word_tokenize
 
+
 def encrypt_text(annot_file, output_file):
-    # expand paths
+    """Encrypts the textual content of the ``Serial Speakers'' dataset
+    Args:
+    annot_file  (str): input annotation file with plain text
+    output_file (str): output annotation file with encrypted text
+
+    Returns:
+    None
+    """
+    # expand input paths
     annot_file = os.path.expanduser(annot_file)
     output_file = os.path.expanduser(output_file)
 
@@ -33,7 +43,10 @@ def encrypt_text(annot_file, output_file):
             
             # loop over speech segments
             speech_segments = episode['data']['speech_segments']
+
+            # new list of encrypted speech segments
             new_speech_segments = []
+            
             for speech_segment in speech_segments:
                 text = speech_segment['text'].lower()
                 
@@ -65,7 +78,8 @@ def encrypt_text(annot_file, output_file):
     # write out annotation file with encrypted text
     with open(output_file, 'w') as outfile:
         json.dump(annotations, outfile, indent=2)
-    
+
+        
 def parse_arguments(argv):
     parser = argparse.ArgumentParser()
     parser.add_argument('--annot_file',
