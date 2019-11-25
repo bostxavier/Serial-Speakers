@@ -14,7 +14,7 @@ python3 decrypt_text.py --annot_file (path of one of the three following files: 
                         --subtitles_dir (directory containing the subtitle .srt files) \
                         --output_annot_file (path of the output annotation file with the text as recovered)
  ```
-Should you experience codec issues with your subtitles, you would set the following additional parameter to another value than the default "utf-8" value:
+In case you experience codec issues with your subtitles, try to set the following additional parameter to another value than the default "utf-8":
 
 ```
                         --subtitles_encoding (encoding, for instance "iso-8859-1"...)
