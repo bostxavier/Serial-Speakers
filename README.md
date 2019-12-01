@@ -26,26 +26,26 @@ The execution of the script displays on the standard output, as the text is bein
 
   *Breaking Bad*
   ```
-  Season 1: 30.00 del (avg.); 24.57 sub (avg.)
-  Season 2: 39.69 del (avg.); 37.77 sub (avg.)
-  Season 3: 52.23 del (avg.); 15.31 sub (avg.)
-  Season 4: 72.38 del (avg.); 54.15 sub (avg.)
-  Season 5: 60.75 del (avg.); 39.44 sub (avg.)
+  Season 1: 41.29 del (avg.); 16.71 sub (avg.)
+  Season 2: 50.92 del (avg.); 27.00 sub (avg.)                                                             
+  Season 3: 68.69 del (avg.); 11.08 sub (avg.)                                                                                                                                                       
+  Season 4: 105.46 del (avg.); 40.08 sub (avg.)
+  Season 5: 73.94 del (avg.); 32.00 sub (avg.)
   ```
   *Game of Thrones*
   ```
-  Season 1: 03.20 del (avg.); 16.90 sub (avg.)
-  Season 2: 03.70 del (avg.); 01.10 sub (avg.)
-  Season 3: 26.00 del (avg.); 04.80 sub (avg.)
-  Season 4: 44.20 del (avg.); 04.30 sub (avg.)
-  Season 5: 24.30 del (avg.); 11.40 sub (avg.)
-  Season 6: 17.30 del (avg.); 03.70 sub (avg.)
-  Season 7: 02.57 del (avg.); 00.71 sub (avg.)
+  Season 1: 2.60 del (avg.); 13.90 sub (avg.)
+  Season 2: 5.10 del (avg.); 1.00 sub (avg.)
+  Season 3: 27.10 del (avg.); 4.00 sub (avg.)
+  Season 4: 49.70 del (avg.); 2.50 sub (avg.)
+  Season 5: 28.80 del (avg.); 6.00 sub (avg.)
+  Season 6: 17.80 del (avg.); 2.10 sub (avg.)
+  Season 7: 2.57 del (avg.); 0.57 sub (avg.)
   ```
   *House of Cards*
   ```
-  Season 1: 08.23 del (avg.); 04.23 sub (avg.)
-  Season 2: 10.54 del (avg.); 03.69 sub (avg.)
+  Season 1: 11.00 del (avg.); 1.62 sub (avg.)
+  Season 2: 13.00 del (avg.); 2.08 sub (avg.)
   ```
 ## Other files
 
