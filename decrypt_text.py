@@ -17,14 +17,21 @@ from nltk.tokenize import word_tokenize
 
 
 def _pre_process_subtitles(text):
-    """Removes formatting tags from subtitle text
+    """Removes subtitles metadata
     Args:
     text (str): subtitle text
 
     Returns:
-    text (str): same text, without formatting tags
+    text (str): same text, without formatting tags and content in parentheses
     """
+    # formatting tags
     text = re.sub(r'</?i>', '', text)
+
+    # speaker mentions
+    text = re.sub(r'\(.+?\)', '', text)
+
+    # speaker turns
+    text = re.sub(r'^-', '', text)
     
     return text
 
@@ -169,7 +176,7 @@ def _retrieve_content(encrypted_tokens, subtitle_tokens):
 
             # encrypt word type
             h.update(token.lower().encode('utf-8'))
-            hash_dict[token] = h.hexdigest()
+            hash_dict[token] = h.hexdigest()[:3]
 
         # append encryted token
         sub_encrypted_tokens.append(hash_dict[token])
@@ -179,22 +186,31 @@ def _retrieve_content(encrypted_tokens, subtitle_tokens):
 
     # loop over matching
     for tag, i1, i2, j1, j2 in matcher.get_opcodes():
+        len_ref = i2 - i1
+        len_sub = j2 - j1
 
         if tag == 'equal' or tag == 'replace':
-            for i, j in enumerate(range(j1, j2)):
-                segment_idx = mapping[i + i1]
-                decrypted = subtitle_tokens[j]
-                if tag == 'replace':
-                    decrypted = '<{}>'.format(decrypted)
-                    n_sub += 1
-                speech_segments[segment_idx] += ' {}'.format(decrypted)
+            for i in range(len_ref):
+                segment_idx = mapping[i1+i]
 
+                # substitution
+                if i < len_sub:
+                    decrypted = subtitle_tokens[j1+i]
+                    speech_segments[segment_idx] += ' {}'.format(decrypted)
+                    if tag == 'replace':
+                        decrypted = '<{}>'.format(decrypted)
+                        n_sub += 1
+                # deletion
+                else:
+                    speech_segments[segment_idx] += ' <>'
+                    n_del += 1
+                    
         elif tag == 'delete':
-            for i in range(i1, i2):
-                segment_idx = mapping[i]
+            for i in range(len_ref):
+                segment_idx = mapping[i1+i]
                 speech_segments[segment_idx] += ' <>'
                 n_del += 1
-                
+
     # post-process recovered speech segments
     speech_segments = _post_processing(speech_segments)
     

@@ -63,7 +63,7 @@ def encrypt_text(annot_file, output_file):
 
                         # encrypt word type
                         h.update(word.encode('utf-8'))
-                        hash_dict[word] = h.hexdigest()
+                        hash_dict[word] = h.hexdigest()[:3]
 
                     # append encryted word
                     encrypted_tokens.append(hash_dict[word])
@@ -79,6 +79,8 @@ def encrypt_text(annot_file, output_file):
     with open(output_file, 'w') as outfile:
         json.dump(annotations, outfile, indent=2)
 
+    print('# word types: {}'.format(len(hash_dict)))
+    print('# hash types: {}'.format(len(set(hash_dict.values()))))
         
 def parse_arguments(argv):
     parser = argparse.ArgumentParser()
