@@ -1,2 +1,2 @@
-*.py linguist-language=Python
-*.R linguist-language=R
+*.py linguist-detectable=true
+*.R linguist-detectable=true
