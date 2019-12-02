@@ -1,0 +1,41 @@
+"","InDegree","OutDegree","AllDegree","InStrength","OutStrength","AllStrength"
+"Aemon",2,2,4,5,24,29
+"Alliser Thorne",0,3,3,0,4,4
+"Arya Stark",4,4,8,103,31,134
+"Barristan Selmy",2,2,4,27,7,34
+"Benjen Stark",3,3,6,15,30,45
+"Brandon Stark",2,2,4,25,8,33
+"Catelyn Stark",5,5,10,43,33,76
+"Cersei Lannister",2,2,4,37,40,77
+"Daenerys Targaryen",4,4,8,26,13,39
+"Drogo",1,1,2,2,1,3
+"Eddard Stark",11,10,21,110,106,216
+"Grenn",3,1,4,8,3,11
+"Irri",3,3,6,13,17,30
+"Jaime Lannister",4,4,8,39,46,85
+"Jeor Mormont",2,2,4,15,12,27
+"Joffrey Baratheon",1,1,2,29,22,51
+"Jon Snow",4,4,8,32,21,53
+"Jorah Mormont",4,3,7,24,30,54
+"Jory Cassel",1,1,2,1,1,2
+"Lancel",1,1,2,11,2,13
+"Lancel Lannister",1,0,1,1,0,1
+"Mordane",2,3,5,6,6,12
+"Nan",2,2,4,6,18,24
+"Petyr Baelish",3,5,8,27,50,77
+"Petyr Baelish man #1",1,1,2,4,4,8
+"Pycelle",2,2,4,11,12,23
+"Pypar",3,1,4,9,1,10
+"Rakharo",4,4,8,24,20,44
+"Rast",1,1,2,7,2,9
+"Renly Baratheon",2,1,3,8,5,13
+"Robb Stark",2,2,4,6,11,17
+"Robert Baratheon",3,4,7,11,53,64
+"Rodrik Cassel",1,1,2,2,3,5
+"Royal Steward",0,1,1,0,4,4
+"Sansa Stark",3,2,5,9,5,14
+"Syrio Forel",1,1,2,7,53,60
+"Tyrion Lannister",7,8,15,70,60,130
+"Varys",3,2,5,13,16,29
+"Viserys Targaryen",1,2,3,2,10,12
+"Yoren",2,2,4,15,19,34

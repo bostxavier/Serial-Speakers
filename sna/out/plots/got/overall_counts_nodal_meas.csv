@@ -1,0 +1,71 @@
+"","InDegree","OutDegree","AllDegree","InStrength","OutStrength","AllStrength"
+"Aemon",3,5,8,8,32,40
+"Alliser Thorne",1,5,6,3,9,12
+"Arya Stark",6,6,12,127,45,172
+"Barristan Selmy",7,7,14,53,25,78
+"Benjen Stark",3,3,6,15,30,45
+"Brandon Stark",5,5,10,65,30,95
+"Bronn",2,2,4,13,13,26
+"Catelyn Stark",9,9,18,76,79,155
+"Cersei Lannister",8,6,14,87,112,199
+"Daenerys Targaryen",9,8,17,113,66,179
+"Drogo",4,3,7,26,33,59
+"Eddard Stark",17,17,34,296,186,482
+"Grenn",4,1,5,10,3,13
+"Hodor",1,1,2,2,1,3
+"Irri",3,3,6,13,17,30
+"Jaime Lannister",5,5,10,81,60,141
+"Janos Slynt",1,1,2,3,1,4
+"Jeor Mormont",6,8,14,35,38,73
+"Joffrey Baratheon",6,5,11,57,34,91
+"Jon Snow",9,8,17,100,52,152
+"Jon Umber",4,4,8,19,26,45
+"Jorah Mormont",7,5,12,62,73,135
+"Jory Cassel",1,1,2,1,1,2
+"Kevan Lannister",2,2,4,7,5,12
+"Lancel",1,1,2,11,2,13
+"Lancel Lannister",1,0,1,1,0,1
+"Lannister guardsman #1",2,1,3,6,2,8
+"Lannister messenger #1",0,1,1,0,1,1
+"Lannister scout #1",1,1,2,3,4,7
+"Little Bird",0,1,1,0,5,5
+"Luwin",3,3,6,20,17,37
+"Lysa Arryn",2,2,4,14,22,36
+"Mago",2,2,4,12,4,16
+"Meryn Trant",3,3,6,6,8,14
+"Mirri Maz Duur",3,2,5,6,10,16
+"Mordane",3,3,6,13,13,26
+"Nan",2,2,4,6,18,24
+"Night's Watch messenger",0,1,1,0,2,2
+"Osha",3,3,6,37,46,83
+"Othell Yarwyck",3,3,6,7,9,16
+"Petyr Baelish",5,9,14,56,140,196
+"Petyr Baelish man #1",1,1,2,4,4,8
+"Pycelle",5,5,10,20,19,39
+"Pypar",6,2,8,17,10,27
+"Qotho",1,3,4,3,12,15
+"Rakharo",4,6,10,28,26,54
+"Rast",2,1,3,8,2,10
+"Renly Baratheon",3,1,4,19,35,54
+"Rickon Stark",1,1,2,4,2,6
+"Robb Stark",9,9,18,79,66,145
+"Robert Baratheon",5,9,14,15,109,124
+"Robin Arryn",1,1,2,6,2,8
+"Rodrik Cassel",3,3,6,12,9,21
+"Ros",1,1,2,56,7,63
+"Royal Steward",1,1,2,1,8,9
+"Samwell Tarly",6,5,11,27,49,76
+"Sandor Clegane",1,1,2,4,1,5
+"Sansa Stark",9,8,17,45,53,98
+"Shagga",2,3,5,25,11,36
+"Stableboy",1,1,2,5,4,9
+"Stark guard #1",1,1,2,2,4,6
+"Syrio Forel",3,3,6,19,77,96
+"Theon Greyjoy",5,5,10,23,33,56
+"Tomard",1,1,2,5,1,6
+"Tyrion Lannister",11,12,23,106,114,220
+"Tywin Lannister",6,4,10,35,60,95
+"Varys",4,4,8,30,55,85
+"Viserys Targaryen",1,2,3,2,10,12
+"Wineseller",3,2,5,15,24,39
+"Yoren",2,2,4,15,19,34

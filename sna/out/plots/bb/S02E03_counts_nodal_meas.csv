@@ -1,0 +1,18 @@
+"","InDegree","OutDegree","AllDegree","InStrength","OutStrength","AllStrength"
+"Badger",2,3,5,26,37,63
+"Clovis",2,1,3,11,7,18
+"Dr. Chavez",1,1,2,26,25,51
+"Dr. Delcavoli",3,3,6,22,15,37
+"Dr. Soper",3,3,6,22,9,31
+"George Merkert",1,1,2,13,5,18
+"Hank Schrader",9,9,18,109,156,265
+"Hospital Medic",1,1,2,3,7,10
+"Jesse Pinkman",7,7,14,115,108,223
+"Marie Schrader",1,1,2,10,18,28
+"Ramey",1,1,2,18,4,22
+"Skyler White",6,6,12,59,56,115
+"Steven Gomez",2,3,5,35,31,66
+"Tio's nurse",1,1,2,1,2,3
+"Walter White",7,7,14,138,138,276
+"Walter White Jr.",3,3,6,25,19,44
+"Wendy",3,2,5,24,20,44

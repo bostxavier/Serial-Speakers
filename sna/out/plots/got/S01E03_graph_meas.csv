@@ -1,0 +1,12 @@
+"","counts","durations"
+"AvgInDegree",2.575,2.575
+"AvgOutDegree",2.575,2.575
+"AvgAllDegree",5.15,5.15
+"AvgInStrength",20.075,22.721125
+"AvgOutStrength",20.075,22.721125
+"AvgAllStrength",40.15,45.44225
+"UndirectedDegreeAssortativity",-0.26707619512752,-0.26707619512752
+"DirectedDegreeAssortativity",-0.270727217710861,-0.270727217710861
+"UndirectedStrengthAssortativity",-0.214439196038231,-0.228171293099731
+"DirectedStrengthAssortativity",-0.162834614035644,-0.180181643732102
+"AvgWeight",7.79611650485437,8.82373786407766

@@ -1,0 +1,27 @@
+"","InDegree","OutDegree","AllDegree","InStrength","OutStrength","AllStrength"
+"Barney Hull",1,1,2,9,5,14
+"Brian",1,1,2,10,3,13
+"Catherine Durant",1,1,2,16,8,24
+"Charles Holburn",1,1,2,4,6,10
+"Christina Gallagher",1,1,2,36,22,58
+"Claire Underwood",5,4,9,91,87,178
+"Donald Blythe",1,1,2,26,9,35
+"Douglas Stamper",3,3,6,37,31,68
+"Evelyn Baxter",1,1,2,26,24,50
+"Felicity Holburn",1,1,2,6,8,14
+"Francis Underwood",12,12,24,235,278,513
+"Freddy Hayes",1,1,2,8,8,16
+"Henry Chapman",1,1,2,12,8,20
+"Jack Warton",1,1,2,5,1,6
+"Janine Skorsky",2,2,4,18,11,29
+"Jim Matthews",1,0,1,6,0,6
+"Linda Vasquez",1,1,2,51,50,101
+"Lucas Goodwin",2,2,4,31,25,56
+"Michael Kern",0,3,3,0,18,18
+"Nancy Kaufberger",2,1,3,7,5,12
+"Peter Russo",4,5,9,63,78,141
+"Policeman",1,2,3,8,13,21
+"Rachel Posner",2,0,2,6,0,6
+"Steve Jones",2,2,4,15,9,24
+"Tom Hammerschmidt",3,3,6,27,29,56
+"Zoe Barnes",7,7,14,101,118,219

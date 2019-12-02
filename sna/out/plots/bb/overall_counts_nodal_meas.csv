@@ -1,0 +1,40 @@
+"","InDegree","OutDegree","AllDegree","InStrength","OutStrength","AllStrength"
+"Adam Pinkman",4,3,7,33,29,62
+"Badger",2,3,5,26,37,63
+"Carmen Molina",2,1,3,7,4,11
+"Christian ""Combo"" Ortega",2,2,4,30,24,54
+"Clinic's Clerk",1,1,2,5,2,7
+"Clovis",2,1,3,43,21,64
+"Danny's Auto Service Employee #1",1,1,2,7,3,10
+"DEA agent #1",0,1,1,0,1,1
+"Dr. Chavez",1,1,2,26,25,51
+"Dr. Delcavoli",3,3,6,25,45,70
+"Dr. Soper",3,3,6,22,9,31
+"George Merkert",1,1,2,13,5,18
+"Gonzo",1,1,2,1,1,2
+"Hank Schrader",12,13,25,199,312,511
+"Henry Tyree",3,1,4,17,1,18
+"Hospital Medic",1,1,2,3,7,10
+"Hugo Archuleta",2,1,3,4,5,9
+"Jake Pinkman",3,3,6,42,19,61
+"Jesse Pinkman",17,18,35,440,503,943
+"Ken",2,1,3,8,7,15
+"Louis Corbett",2,1,3,9,8,17
+"Marie Schrader",4,4,8,51,58,109
+"Mesa Credit Union employee #1",1,1,2,4,4,8
+"Mr. Gardiner",1,3,4,11,13,24
+"Mrs. Pinkman",4,3,7,72,54,126
+"Mrs. Pope",2,2,4,8,5,13
+"Paul Tyree",3,3,6,26,43,69
+"Ramey",1,1,2,18,4,22
+"Sara Tyree",2,3,5,7,5,12
+"Skinny Pete",4,4,8,41,32,73
+"Skyler White",8,8,16,301,211,512
+"Steven Gomez",2,3,5,47,39,86
+"Student #1",1,0,1,2,0,2
+"Tio's nurse",1,1,2,1,2,3
+"Tuco Salamanca",3,4,7,34,58,92
+"Walter White",18,19,37,645,780,1425
+"Walter White Jr.",5,6,11,236,88,324
+"Wendy",3,2,5,24,20,44
+"Wino",1,1,2,1,5,6

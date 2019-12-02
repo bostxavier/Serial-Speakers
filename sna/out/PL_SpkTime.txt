@@ -1,0 +1,51 @@
+[dim. 17 nov. 2019 16:28:00] -------------------------------
+[dim. 17 nov. 2019 16:28:00] Loading file "in/speakers_spk_time/bb_speaking_time.csv"
+[dim. 17 nov. 2019 16:28:00] ..Handling power law
+[dim. 17 nov. 2019 16:29:50] ....p-value for power law: 0.878
+[dim. 17 nov. 2019 16:29:50] ..Handling log-normal law
+[dim. 17 nov. 2019 16:43:58] ....p-value for log-normal law: 0.974
+[dim. 17 nov. 2019 16:43:58] ..Handling exponential law
+[dim. 17 nov. 2019 16:45:42] ....p-value for exponential law: 0.922
+[dim. 17 nov. 2019 16:45:42] ..Comparing power and log-normal laws
+[dim. 17 nov. 2019 16:45:42] ....Test statistic: 0.4229386
+[dim. 17 nov. 2019 16:45:42] ....p-values: 0.66383, 0.6723401
+[dim. 17 nov. 2019 16:45:42] ..Comparing power and exponential laws
+[dim. 17 nov. 2019 16:45:42] ....Test statistic: 5.026182
+[dim. 17 nov. 2019 16:45:42] ....p-values: 2.501702e-07, 5.003404e-07
+[dim. 17 nov. 2019 16:45:42] -------------------------------
+[dim. 17 nov. 2019 16:45:42] Loading file "in/speakers_spk_time/got_speaking_time.csv"
+[dim. 17 nov. 2019 16:45:42] ..Handling power law
+[dim. 17 nov. 2019 16:48:15] ....p-value for power law: 0.143
+[dim. 17 nov. 2019 16:48:15] ..Handling log-normal law
+[dim. 17 nov. 2019 17:02:24] ....p-value for log-normal law: 0.022
+[dim. 17 nov. 2019 17:02:24] ..Handling exponential law
+[dim. 17 nov. 2019 17:05:02] ....p-value for exponential law: 0.911
+[dim. 17 nov. 2019 17:05:02] ..Comparing power and log-normal laws
+[dim. 17 nov. 2019 17:05:02] ....Test statistic: 1.276271
+[dim. 17 nov. 2019 17:05:02] ....p-values: 0.8990702, 0.2018597
+[dim. 17 nov. 2019 17:05:02] ..Comparing power and exponential laws
+[dim. 17 nov. 2019 17:05:02] ....Test statistic: 1.426296
+[dim. 17 nov. 2019 17:05:02] ....p-values: 0.07689145, 0.1537829
+[dim. 17 nov. 2019 17:05:02] -------------------------------
+[dim. 17 nov. 2019 17:05:02] Loading file "in/speakers_spk_time/hoc_speaking_time.csv"
+[dim. 17 nov. 2019 17:05:02] ..Handling power law
+[dim. 17 nov. 2019 17:06:57] ....p-value for power law: 0.12
+[dim. 17 nov. 2019 17:06:57] ..Handling log-normal law
+[dim. 17 nov. 2019 17:15:21] ....p-value for log-normal law: 0.062
+[dim. 17 nov. 2019 17:15:21] ..Handling exponential law
+[dim. 17 nov. 2019 17:16:43] ....p-value for exponential law: 0.482
+[dim. 17 nov. 2019 17:16:43] ..Comparing power and log-normal laws
+[dim. 17 nov. 2019 17:16:43] ....Test statistic: 1.039489
+[dim. 17 nov. 2019 17:16:43] ....p-values: 0.8507113, 0.2985773
+[dim. 17 nov. 2019 17:16:43] ..Comparing power and exponential laws
+[dim. 17 nov. 2019 17:16:43] ....Test statistic: 2.877722
+[dim. 17 nov. 2019 17:16:43] ....p-values: 0.002002788, 0.004005575
+[dim. 17 nov. 2019 17:16:43] -------------------------------
+[dim. 17 nov. 2019 17:16:43] Interpretation of the distribution test: statistically significant if large enough
+[dim. 17 nov. 2019 17:16:43] -------------------------------
+[dim. 17 nov. 2019 17:16:43] Interpretation of the comparison test:
+[dim. 17 nov. 2019 17:16:43] ..- The test statistic indicates whether the power-law (positive) or the other distribution is preferred (negative)
+[dim. 17 nov. 2019 17:16:43] ..- The p-value indicates whether this sign is significant (small p)
+[dim. 17 nov. 2019 17:16:43] -------------------------------
+[dim. 17 nov. 2019 17:16:43] Done
+[dim. 17 nov. 2019 17:16:43] Total processing time: 00:48:42

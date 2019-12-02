@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_name">Carmen Molina</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">Clinic&apos;s Clerk</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">Gonzo</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">Hank Schrader</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">Hugo Archuleta</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">Jesse Pinkman</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">Marie Schrader</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">Mrs. Pope</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">Skinny Pete</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">Skyler White</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">Steven Gomez</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">Student #1</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">Tuco Salamanca</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">Walter White</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">Walter White Jr.</data>
+    </node>
+    <edge source="n0" target="n13">
+      <data key="e_weight">4.58999999999992</data>
+    </edge>
+    <edge source="n1" target="n13">
+      <data key="e_weight">1.89999999999986</data>
+    </edge>
+    <edge source="n2" target="n13">
+      <data key="e_weight">0.579999999999927</data>
+    </edge>
+    <edge source="n3" target="n0">
+      <data key="e_weight">1.48099999999999</data>
+    </edge>
+    <edge source="n3" target="n4">
+      <data key="e_weight">3.47899999999981</data>
+    </edge>
+    <edge source="n3" target="n6">
+      <data key="e_weight">6.53600000000006</data>
+    </edge>
+    <edge source="n3" target="n9">
+      <data key="e_weight">5.32199999999989</data>
+    </edge>
+    <edge source="n3" target="n10">
+      <data key="e_weight">5.66999999999996</data>
+    </edge>
+    <edge source="n3" target="n13">
+      <data key="e_weight">74.598</data>
+    </edge>
+    <edge source="n3" target="n14">
+      <data key="e_weight">12.49</data>
+    </edge>
+    <edge source="n4" target="n13">
+      <data key="e_weight">4.57200000000012</data>
+    </edge>
+    <edge source="n5" target="n8">
+      <data key="e_weight">5.23000000000002</data>
+    </edge>
+    <edge source="n5" target="n12">
+      <data key="e_weight">17.1499999999999</data>
+    </edge>
+    <edge source="n5" target="n13">
+      <data key="e_weight">72.6699999999998</data>
+    </edge>
+    <edge source="n6" target="n3">
+      <data key="e_weight">9.40000000000009</data>
+    </edge>
+    <edge source="n6" target="n9">
+      <data key="e_weight">4.65599999999995</data>
+    </edge>
+    <edge source="n6" target="n13">
+      <data key="e_weight">7.65599999999995</data>
+    </edge>
+    <edge source="n6" target="n14">
+      <data key="e_weight">4.65599999999995</data>
+    </edge>
+    <edge source="n7" target="n9">
+      <data key="e_weight">0.420000000000016</data>
+    </edge>
+    <edge source="n7" target="n13">
+      <data key="e_weight">13.123</data>
+    </edge>
+    <edge source="n8" target="n5">
+      <data key="e_weight">3.88000000000011</data>
+    </edge>
+    <edge source="n8" target="n12">
+      <data key="e_weight">6.74800000000005</data>
+    </edge>
+    <edge source="n8" target="n13">
+      <data key="e_weight">13.0320000000002</data>
+    </edge>
+    <edge source="n9" target="n3">
+      <data key="e_weight">4.42999999999984</data>
+    </edge>
+    <edge source="n9" target="n6">
+      <data key="e_weight">3.48000000000002</data>
+    </edge>
+    <edge source="n9" target="n7">
+      <data key="e_weight">1.75999999999999</data>
+    </edge>
+    <edge source="n9" target="n13">
+      <data key="e_weight">20.48</data>
+    </edge>
+    <edge source="n9" target="n14">
+      <data key="e_weight">1.48000000000002</data>
+    </edge>
+    <edge source="n10" target="n3">
+      <data key="e_weight">2.55599999999993</data>
+    </edge>
+    <edge source="n12" target="n2">
+      <data key="e_weight">1.33399999999983</data>
+    </edge>
+    <edge source="n12" target="n5">
+      <data key="e_weight">29.3699999999999</data>
+    </edge>
+    <edge source="n12" target="n8">
+      <data key="e_weight">0.530999999999949</data>
+    </edge>
+    <edge source="n12" target="n13">
+      <data key="e_weight">31.4060000000004</data>
+    </edge>
+    <edge source="n13" target="n0">
+      <data key="e_weight">4.75999999999999</data>
+    </edge>
+    <edge source="n13" target="n1">
+      <data key="e_weight">4.25</data>
+    </edge>
+    <edge source="n13" target="n3">
+      <data key="e_weight">35.54</data>
+    </edge>
+    <edge source="n13" target="n4">
+      <data key="e_weight">1.74000000000001</data>
+    </edge>
+    <edge source="n13" target="n5">
+      <data key="e_weight">73.74</data>
+    </edge>
+    <edge source="n13" target="n6">
+      <data key="e_weight">4.22000000000003</data>
+    </edge>
+    <edge source="n13" target="n7">
+      <data key="e_weight">9.85899999999992</data>
+    </edge>
+    <edge source="n13" target="n8">
+      <data key="e_weight">7.24000000000024</data>
+    </edge>
+    <edge source="n13" target="n9">
+      <data key="e_weight">32.4380000000001</data>
+    </edge>
+    <edge source="n13" target="n11">
+      <data key="e_weight">1.87</data>
+    </edge>
+    <edge source="n13" target="n12">
+      <data key="e_weight">14.6100000000001</data>
+    </edge>
+    <edge source="n13" target="n13">
+      <data key="e_weight">3.27999999999997</data>
+    </edge>
+    <edge source="n13" target="n14">
+      <data key="e_weight">10.2060000000001</data>
+    </edge>
+    <edge source="n14" target="n3">
+      <data key="e_weight">4.38000000000011</data>
+    </edge>
+    <edge source="n14" target="n6">
+      <data key="e_weight">2.38000000000011</data>
+    </edge>
+    <edge source="n14" target="n9">
+      <data key="e_weight">2.38000000000011</data>
+    </edge>
+    <edge source="n14" target="n13">
+      <data key="e_weight">7.15000000000009</data>
+    </edge>
+  </graph>
+</graphml>
