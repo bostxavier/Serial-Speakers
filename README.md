@@ -26,9 +26,9 @@ The execution of the script displays on the standard output, as the text is bein
 
   *Breaking Bad*
   ```
-  Season 1: 41.29 del (avg.); 16.71 sub (avg.)
-  Season 2: 50.92 del (avg.); 27.00 sub (avg.)                                                             
-  Season 3: 68.69 del (avg.); 11.08 sub (avg.)                                                                                                                                                       
+  Season 1: 41.29 del (avg.); 16.86 sub (avg.)
+  Season 2: 50.92 del (avg.); 27.00 sub (avg.)
+  Season 3: 68.69 del (avg.); 11.08 sub (avg.)
   Season 4: 105.46 del (avg.); 40.08 sub (avg.)
   Season 5: 73.94 del (avg.); 32.00 sub (avg.)
   ```
@@ -41,12 +41,14 @@ The execution of the script displays on the standard output, as the text is bein
   Season 5: 28.80 del (avg.); 6.00 sub (avg.)
   Season 6: 17.80 del (avg.); 2.10 sub (avg.)
   Season 7: 2.57 del (avg.); 0.57 sub (avg.)
+  Season 8: 15.00 del (avg.); 20.83 sub (avg.)
   ```
   *House of Cards*
   ```
-  Season 1: 11.00 del (avg.); 1.62 sub (avg.)
-  Season 2: 13.00 del (avg.); 2.08 sub (avg.)
+  Season 1: 11.00 del (avg.); 2.08 sub (avg.)
+  Season 2: 13.00 del (avg.); 2.15 sub (avg.)
   ```
+  
 ## Additional files
 
 In addition, the repository also contains :
