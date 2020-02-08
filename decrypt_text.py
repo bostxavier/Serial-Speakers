@@ -116,6 +116,7 @@ def _remove_spaces(text):
     Returns:
     text (str): text with extra spaces removed
     """
+
     text = re.sub(r'^ ', '', text)
     text = re.sub(r" '", "'", text)
     text = re.sub(r" n't", "n't", text)
@@ -135,6 +136,7 @@ def _post_processing(speech_segments):
     Returns:
     speech_segments  (list): post-processed speech turns
     """
+
     for i in range(len(speech_segments)):
         speech_segments[i] = _remove_spaces(speech_segments[i])
         
@@ -232,6 +234,7 @@ def decrypt_text(annot_file, subtitles_dir, subtitles_encoding, output_annot_fil
     Returns:
     None
     """
+
     # starting time
     start_time = time.time()
     
