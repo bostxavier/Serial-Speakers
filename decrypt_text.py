@@ -24,14 +24,18 @@ def _pre_process_subtitles(text):
     Returns:
     text (str): same text, without formatting tags and content in parentheses
     """
+    
     # formatting tags
     text = re.sub(r'</?i>', '', text)
 
-    # speaker mentions
+    # speaker turns
+    text = re.sub(r'^\s*-\s*', '', text)
+    
+    # noise/speaker mention
     text = re.sub(r'\(.+?\)', '', text)
 
-    # speaker turns
-    text = re.sub(r'^-', '', text)
+    # speaker mention
+    text = re.sub(r'^\s*[A-Z0-9\ ]+:\s*', '', text)
     
     return text
 
