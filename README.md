@@ -1,5 +1,5 @@
 # Serial-Speakers
-Companion toolkit of the *Serial Speakers* dataset, available at https://figshare.com/articles/TV_Series_Corpus/3471839
+Companion toolkit of the *Serial Speakers* dataset, available at https://figshare.com/articles/TV_Series_Corpus/3471839, and detailed in the following paper: https://hal.archives-ouvertes.fr/hal-02477736
 
 This repository mainly contains a *Python* script to recover from subtitle files the copyrighted contents of the *Serial Speakers* dataset.
 
